@@ -1,9 +1,16 @@
 /* Add here all your CSS customizations */
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i');
 
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap'); */
+
+
 body {
     font-size: 16px;
     color: #333;
+}
+
+h1, h2, h3, h4, h5 {
+    /* font-family: 'Roboto Slab', sans-serif; */
 }
 
 #header .header-body {
@@ -87,10 +94,39 @@ a[x-apple-data-detectors] {
     background-position: right;
 }
 
-/* .state-logo {
-	position: relative;
-	bottom: -85px;
-} */
+/* MS specific colors */
+
+.ms-light-blue-bg {
+    background: #21afe5;
+}
+
+.ms-green-bg {
+    background: #0ab592;
+}
+
+.ms-yellow-bg {
+    background: #dfb825;
+}
+
+.ms-purple-bg {
+    background: #5f174e;
+}
+
+.ms-light-blue {
+    color: #21afe5;
+}
+
+.ms-green {
+    color: #0ab592;
+}
+
+.ms-yellow {
+    color: #dfb825;
+}
+
+.ms-purple {
+    color: #5f174e;
+}
 
 .nav-wrapper {
     float: right;
@@ -101,23 +137,31 @@ a[x-apple-data-detectors] {
     margin-top: 1.5em;
 }
 
+h1.mono {
+    margin: 2em;
+    text-align: center;
+    font-family: monospace;
+    font-weight: normal;
+    color: #999;
+}
 
-.src-headline {
+
+.srg-headline {
     padding: 80px 0 20px 0;
 }
 
-.src-headline h1 {
+.headline h1 {
+    padding: .5em 0;
+    color: #c62b29;
 
-    color: #0e70b4;
-    padding: 0;
 }
 
-.src-subhead {
+.srg-subhead {
     background: #ffd55e;
 }
 
-.src-subhead h2 {
-    color: #0e70b4;
+.srg-subhead h2 {
+    color: #082e60;
     font-size: 28px;
     font-weight: bold;
     padding: .25em 0;
@@ -134,11 +178,8 @@ a[x-apple-data-detectors] {
     margin: 0 15px;
 }
 
-.al-edu-logos {
-    float: left;
-    height: 100px;
-    width: 400px;
-    margin-top: 5px;
+.state-edu-logo {
+    width: 300px;
 }
 
 html.sticky-header-active #header .header-body {
@@ -171,7 +212,7 @@ html.sticky-header-active #header .header-body {
         margin: 0 auto;
     }
 
-    .src-headline {
+    .srg-headline {
         padding-top: 40px;
     }
 
@@ -249,7 +290,7 @@ a.buttons:hover {
 #resources h3, #testimonials h3 {
     text-transform: none;
     padding-bottom: .5em;
-    color: #0e70b4;
+    color: #082e60;
     font-size: 1.6em;
     margin: .5em 0 1em 0;
     border-bottom: 1px solid #ffd55e;
@@ -348,3 +389,4 @@ p.margin-top {
 sup {
     font-size: 12px;
 }
+

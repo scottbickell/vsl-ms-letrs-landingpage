@@ -1,0 +1,245 @@
+/* OVERRIDES FOR THE JUSTIFIED TABS */
+
+.nav-tabs li a {
+    font-size: 18px;
+}
+
+/* -----------------------------------------------LIGHT BLUE----------------------------------------------- */
+
+.nav-tabs li a.ms-light-blue-bg, .nav-tabs li a.ms-light-blue-bg:hover {
+	background: #21afe5;
+	border-bottom: none;
+	border-left: 1px solid #21afe5;
+	border-right: 1px solid #21afe5;
+	border-top: 3px solid #21afe5;
+	color: #fff;
+}
+
+.nav-tabs li a.ms-light-blue-bg:hover {
+	border-bottom-color: transparent;
+	border-top: 3px solid #21afe5;
+	box-shadow: none;
+}
+
+
+.nav-tabs li.active a.ms-light-blue-bg,
+.nav-tabs li.active a.ms-light-blue-bg:hover,
+.nav-tabs li.active a.ms-light-blue-bg:focus {
+	background: #21afe5;
+	border-left-color: #21afe5;
+	border-right-color: #21afe5;
+	border-top: 3px solid #21afe5;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.nav-tabs.nav-justified li a.ms-light-blue-bg {
+	border-bottom: 1px solid #21afe5;
+	border-radius: 0;
+	margin-right: 0;
+}
+
+.nav-tabs.nav-justified li a:hover, .nav-tabs.nav-justified li a.ms-light-blue-bg:focus {
+	border-bottom: 1px solid #21afe5;
+}
+
+.nav-tabs.nav-justified li.active a.ms-light-blue-bg,
+.nav-tabs.nav-justified li.active a.ms-light-blue-bg:hover,
+.nav-tabs.nav-justified li.active a.ms-light-blue-bg:focus {
+	background: #21afe5;
+	border-left-color: #21afe5;
+	border-right-color: #21afe5;
+	border-top-width: 3px;
+}
+
+.nav-tabs.nav-justified li.active a.ms-light-blue-bg {
+	border-bottom: 1px solid #21afe5;
+}
+
+.nav-tabs.nav-justified li.active a.ms-light-blue-bg, .nav-tabs.nav-justified li.active a.ms-light-blue-bg:hover, .nav-tabs.nav-justified li.active a.ms-light-blue-bg:focus {
+	border-top-width: 3px;
+}
+
+.nav-tabs.nav-justified li.active a.ms-light-blue-bg:hover {
+	border-bottom: 1px solid #21afe5;
+}
+
+/* -----------------------------------------------GREEN----------------------------------------------- */
+
+.nav-tabs li a.ms-green-bg, .nav-tabs li a.ms-green-bg:hover {
+	background: #0ab592;
+	border-bottom: none;
+	border-left: 1px solid #0ab592;
+	border-right: 1px solid #0ab592;
+	border-top: 3px solid #0ab592;
+	color: #fff;
+}
+
+.nav-tabs li a.ms-green-bg:hover {
+	border-bottom-color: transparent;
+	border-top: 3px solid #0ab592;
+	box-shadow: none;
+}
+
+
+.nav-tabs li.active a.ms-green-bg,
+.nav-tabs li.active a.ms-green-bg:hover,
+.nav-tabs li.active a.ms-green-bg:focus {
+	background: #0ab592;
+	border-left-color: #0ab592;
+	border-right-color: #0ab592;
+	border-top: 3px solid #0ab592;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.nav-tabs.nav-justified li a.ms-green-bg {
+	border-bottom: 1px solid #0ab592;
+	border-radius: 0;
+	margin-right: 0;
+}
+
+.nav-tabs.nav-justified li a:hover, .nav-tabs.nav-justified li a.ms-green-bg:focus {
+	border-bottom: 1px solid #0ab592;
+}
+
+.nav-tabs.nav-justified li.active a.ms-green-bg,
+.nav-tabs.nav-justified li.active a.ms-green-bg:hover,
+.nav-tabs.nav-justified li.active a.ms-green-bg:focus {
+	background: #0ab592;
+	border-left-color: #0ab592;
+	border-right-color: #0ab592;
+	border-top-width: 3px;
+}
+
+.nav-tabs.nav-justified li.active a.ms-green-bg {
+	border-bottom: 1px solid #FFF;
+}
+
+.nav-tabs.nav-justified li.active a.ms-green-bg, .nav-tabs.nav-justified li.active a.ms-green-bg:hover, .nav-tabs.nav-justified li.active a.ms-green-bg:focus {
+	border-top-width: 3px;
+}
+
+.nav-tabs.nav-justified li.active a.ms-green-bg:hover {
+	border-bottom: 1px solid #0ab592;
+}
+
+/* -----------------------------------------------YELLOW----------------------------------------------- */
+
+.nav-tabs li a.ms-yellow-bg, .nav-tabs li a.ms-yellow-bg:hover {
+	background: #dfb825;
+	border-bottom: none;
+	border-left: 1px solid #dfb825;
+	border-right: 1px solid #dfb825;
+	border-top: 3px solid #dfb825;
+	color: #fff;
+}
+
+.nav-tabs li a.ms-yellow-bg:hover {
+	border-bottom-color: transparent;
+	border-top: 3px solid #dfb825;
+	box-shadow: none;
+}
+
+
+.nav-tabs li.active a.ms-yellow-bg,
+.nav-tabs li.active a.ms-yellow-bg:hover,
+.nav-tabs li.active a.ms-yellow-bg:focus {
+	background: #dfb825;
+	border-left-color: #dfb825;
+	border-right-color: #dfb825;
+	border-top: 3px solid #dfb825;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.nav-tabs.nav-justified li a.ms-yellow-bg {
+	border-bottom: 1px solid #dfb825;
+	border-radius: 0;
+	margin-right: 0;
+}
+
+.nav-tabs.nav-justified li a:hover, .nav-tabs.nav-justified li a.ms-yellow-bg:focus {
+	border-bottom: 1px solid #dfb825;
+}
+
+.nav-tabs.nav-justified li.active a.ms-yellow-bg,
+.nav-tabs.nav-justified li.active a.ms-yellow-bg:hover,
+.nav-tabs.nav-justified li.active a.ms-yellow-bg:focus {
+	background: #dfb825;
+	border-left-color: #dfb825;
+	border-right-color: #dfb825;
+	border-top-width: 3px;
+}
+
+.nav-tabs.nav-justified li.active a.ms-yellow-bg {
+	border-bottom: 1px solid #FFF;
+}
+
+.nav-tabs.nav-justified li.active a.ms-yellow-bg, .nav-tabs.nav-justified li.active a.ms-yellow-bg:hover, .nav-tabs.nav-justified li.active a.ms-yellow-bg:focus {
+	border-top-width: 3px;
+}
+
+.nav-tabs.nav-justified li.active a.ms-yellow-bg:hover {
+	border-bottom: 1px solid #dfb825;
+}
+
+/* -----------------------------------------------PURPLE----------------------------------------------- */
+
+.nav-tabs li a.ms-purple-bg, .nav-tabs li a.ms-purple-bg:hover {
+	background: #5f174e;
+	border-bottom: none;
+	border-left: 1px solid #5f174e;
+	border-right: 1px solid #5f174e;
+	border-top: 3px solid #5f174e;
+	color: #fff;
+}
+
+.nav-tabs li a.ms-purple-bg:hover {
+	border-bottom-color: transparent;
+	border-top: 3px solid #5f174e;
+	box-shadow: none;
+}
+
+
+.nav-tabs li.active a.ms-purple-bg,
+.nav-tabs li.active a.ms-purple-bg:hover,
+.nav-tabs li.active a.ms-purple-bg:focus {
+	background: #5f174e;
+	border-left-color: #5f174e;
+	border-right-color: #5f174e;
+	border-top: 3px solid #5f174e;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.nav-tabs.nav-justified li a.ms-purple-bg {
+	border-bottom: 1px solid #5f174e;
+	border-radius: 0;
+	margin-right: 0;
+}
+
+.nav-tabs.nav-justified li a:hover, .nav-tabs.nav-justified li a.ms-purple-bg:focus {
+	border-bottom: 1px solid #5f174e;
+}
+
+.nav-tabs.nav-justified li.active a.ms-purple-bg,
+.nav-tabs.nav-justified li.active a.ms-purple-bg:hover,
+.nav-tabs.nav-justified li.active a.ms-purple-bg:focus {
+	background: #5f174e;
+	border-left-color: #5f174e;
+	border-right-color: #5f174e;
+	border-top-width: 3px;
+}
+
+.nav-tabs.nav-justified li.active a.ms-purple-bg {
+	border-bottom: 1px solid #FFF;
+}
+
+.nav-tabs.nav-justified li.active a.ms-purple-bg, .nav-tabs.nav-justified li.active a.ms-purple-bg:hover, .nav-tabs.nav-justified li.active a.ms-purple-bg:focus {
+	border-top-width: 3px;
+}
+
+.nav-tabs.nav-justified li.active a.ms-purple-bg:hover {
+	border-bottom: 1px solid #5f174e;
+}
