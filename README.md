@@ -1,1 +1,1 @@
-# vsl-ms-letrs-landingpage
+# vsl-la-letrs

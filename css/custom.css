@@ -1,0 +1,350 @@
+/* Add here all your CSS customizations */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i');
+
+body {
+    font-size: 16px;
+    color: #333;
+}
+
+#header .header-body {
+    border-top: none;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.thumb-info .thumb-info-title-blank {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background: none;
+    bottom: 10%;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: -1px;
+    padding: 9px 11px 9px;
+    position: absolute;
+    z-index: 2;
+    max-width: 90%;
+}
+
+section.page-header h1.header-no-border-bottom {
+    border-bottom: none;
+    text-shadow: 2px 2px 1px rgb(116, 116, 116);
+}
+
+/*Step Up to Writing*/
+
+.page-header.custom-product-sutw {
+    background-image: url(../img/sutw-header-bg.png);
+    background-repeat: repeat;
+    background-color: #999;
+    border-top: 5px solid #888;
+    overflow: hidden;
+}
+
+@media (max-width: 479px) {
+    .page-header h1 {
+        line-height: 37px;
+        font-size: 32px;
+    }
+
+    h2 {
+        line-height: 30px;
+        font-size: 23px;
+    }
+
+    p.quote {
+        margin: 0;
+    }
+}
+
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+/* styles for Striving Readers Grant prefixed with 'srg' */
+
+.srg-header {
+    background: url("../img/istock-header-bg-hands.jpg");
+    background-color: #f3f2ee;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* .state-logo {
+	position: relative;
+	bottom: -85px;
+} */
+
+.nav-wrapper {
+    float: right;
+
+}
+
+.subhead {
+    margin-top: 1.5em;
+}
+
+
+.src-headline {
+    padding: 80px 0 20px 0;
+}
+
+.src-headline h1 {
+
+    color: #0e70b4;
+    padding: 0;
+}
+
+.src-subhead {
+    background: #ffd55e;
+}
+
+.src-subhead h2 {
+    color: #0e70b4;
+    font-size: 28px;
+    font-weight: bold;
+    padding: .25em 0;
+    margin: 0;
+}
+
+.yellow-gradient-bg {
+    background-image: linear-gradient(to right, #ffd55e 0%, #fff5d8 100%);
+}
+
+.vsl-logo {
+    float: right;
+    height: 70px;
+    margin: 0 15px;
+}
+
+.al-edu-logos {
+    float: left;
+    height: 100px;
+    width: 400px;
+    margin-top: 5px;
+}
+
+html.sticky-header-active #header .header-body {
+    position: relative;
+}
+
+
+
+@media screen and (max-width: 580px) {
+
+    .vsl-logo,
+    .al-edu-logos {
+        float: none;
+    }
+
+    .vsl-logo-mobile {
+        float: right;
+        height: 50px;
+    }
+
+    .lead {
+        font-size: 18px;
+    }
+
+    .hide-hardbreak {
+        display: none;
+    }
+
+    .img-responsive {
+        margin: 0 auto;
+    }
+
+    .src-headline {
+        padding-top: 40px;
+    }
+
+    #resources h4,
+    #resources h3 {
+        text-align: center;
+    }
+
+    .srg-header {
+        background-position: top;
+    }
+
+    .xs-align-center {
+        text-align: center;
+    }
+
+    .state-logo {
+        position: relative;
+        bottom: -10px;
+    }
+}
+
+
+.grant-information-tab {
+    padding: 10px;
+}
+
+.grant-information-tab p {
+    font-size: 16px;
+}
+
+.buttons {
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+a.buttons:hover {
+    color: #ffffff;
+}
+
+.resources-tab p {
+    margin: 0 0 1em 0;
+    line-height: 1.3em;
+}
+
+.resources-tab p.research {
+    margin: 0 0 .5em 0;
+    font-weight: bold;
+}
+
+.resources-tab ul {
+    padding: 0 0 0 15px;
+}
+
+.resources-tab li {
+    line-height: 1.2em;
+    margin: 0 0 .5em 0;
+}
+
+.resources-tab h4 {
+    font-weight: bold;
+    margin: 0 0 .25em 0;
+}
+
+#resources h3, #testimonials h3 {
+    text-transform: none;
+    padding-bottom: .5em;
+    color: #0e70b4;
+    font-size: 1.6em;
+    margin: .5em 0 1em 0;
+    border-bottom: 1px solid #ffd55e;
+}
+
+p.quote {
+    margin: 0 4em;
+}
+
+#resources ul {
+    padding-left: 2em;
+}
+
+#resources h4, #testimonials h4 {
+    font-size: 1.3em;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.yellow-gradient-bg h2.quote {
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: normal;
+    margin: 1em 2em;
+}
+
+.yellow-gradient-bg h4 {
+    font-size: 1em;
+    line-height: normal;
+}
+
+p.quote {
+    margin-bottom: .5em;
+}
+
+.sales-rep p {
+    margin-bottom: .5em;
+}
+
+p.sales-rep-name {
+    font-size: 1.3em;
+    margin: 0 0 .25em 0;
+}
+
+p.sales-rep-info {
+    line-height: 1.25em;
+}
+
+.tight {
+    line-height: 1.5em;
+}
+
+.quote-bigger {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+html body .tabs .nav-tabs li.active a,
+html body .tabs .nav-tabs.nav-justified a:hover,
+html.dark body .tabs .nav-tabs.nav-justified a:hover,
+html body .tabs .nav-tabs.nav-justified a:focus,
+html.dark body .tabs .nav-tabs.nav-justified a:focus {
+    border-top-color: #ffd55e;
+}
+
+sup {
+    font-size: .7em;
+    margin-left: 3px;
+}
+
+.headline h1 {
+    margin: 0;
+    line-height: normal;
+}
+
+.headline h1.last {
+    margin-bottom: .5em;
+}
+
+.lighter {
+    font-weight: 300;
+}
+
+h1.lighter {
+    font-weight: 300;
+    font-size: 32px;
+}
+
+p.margin-top {
+    margin-top: 20px;
+}
+
+#header .header-body {
+    height: auto;
+}
+
+sup {
+    font-size: 12px;
+}
