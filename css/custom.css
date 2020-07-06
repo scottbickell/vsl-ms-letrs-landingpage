@@ -4,7 +4,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap'); */
 
 
-body {
+body, p {
     font-size: 16px;
     color: #333;
 }
@@ -85,14 +85,6 @@ a[x-apple-data-detectors] {
     line-height: inherit !important;
 }
 
-/* styles for Striving Readers Grant prefixed with 'srg' */
-
-.srg-header {
-    background: url("../img/istock-header-bg-hands.jpg");
-    background-color: #f3f2ee;
-    background-repeat: no-repeat;
-    background-position: right;
-}
 
 /* MS specific colors */
 
@@ -137,18 +129,10 @@ a[x-apple-data-detectors] {
     margin-top: 1.5em;
 }
 
-h1.mono {
-    margin: 2em;
-    text-align: center;
-    font-family: monospace;
-    font-weight: normal;
-    color: #999;
+.border-radius {
+    border-radius: 8px;
 }
 
-
-.srg-headline {
-    padding: 80px 0 20px 0;
-}
 
 .headline h1 {
     padding: .5em 0;
@@ -156,21 +140,10 @@ h1.mono {
 
 }
 
-.srg-subhead {
-    background: #ffd55e;
+.dyslexia-logo {
+    margin: 0 0 20px 20px;
 }
 
-.srg-subhead h2 {
-    color: #082e60;
-    font-size: 28px;
-    font-weight: bold;
-    padding: .25em 0;
-    margin: 0;
-}
-
-.yellow-gradient-bg {
-    background-image: linear-gradient(to right, #ffd55e 0%, #fff5d8 100%);
-}
 
 .vsl-logo {
     float: right;
@@ -186,54 +159,6 @@ html.sticky-header-active #header .header-body {
     position: relative;
 }
 
-
-
-@media screen and (max-width: 580px) {
-
-    .vsl-logo,
-    .al-edu-logos {
-        float: none;
-    }
-
-    .vsl-logo-mobile {
-        float: right;
-        height: 50px;
-    }
-
-    .lead {
-        font-size: 18px;
-    }
-
-    .hide-hardbreak {
-        display: none;
-    }
-
-    .img-responsive {
-        margin: 0 auto;
-    }
-
-    .srg-headline {
-        padding-top: 40px;
-    }
-
-    #resources h4,
-    #resources h3 {
-        text-align: center;
-    }
-
-    .srg-header {
-        background-position: top;
-    }
-
-    .xs-align-center {
-        text-align: center;
-    }
-
-    .state-logo {
-        position: relative;
-        bottom: -10px;
-    }
-}
 
 
 .grant-information-tab {
@@ -384,9 +309,5 @@ p.margin-top {
 
 #header .header-body {
     height: auto;
-}
-
-sup {
-    font-size: 12px;
 }
 
