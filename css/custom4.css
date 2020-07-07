@@ -33,6 +33,10 @@ p.less-bottom-margin {
     text-decoration: underline;
 }
 
+.tab-pane h2 {
+    margin: .25em 0 .5em 0;
+}
+
 .login-panel p {
     font-size: 1em;
     margin-bottom: 12px;
@@ -53,7 +57,7 @@ p.less-bottom-margin {
 }
 
 .headline h1 {
-    margin: .25em 0;
+    margin: .25em 0 0 0;
 }
 
 .headline h1 sup {
@@ -62,6 +66,7 @@ p.less-bottom-margin {
     font-weight: normal;
     margin-left: 5px;
 }
+
 
 
 a[x-apple-data-detectors] {
@@ -110,6 +115,10 @@ a[x-apple-data-detectors] {
 
 .ms-purple {
     color: #5f174e;
+}
+
+.ms-red {
+    color: #c62b29;
 }
 
 .border-radius {
