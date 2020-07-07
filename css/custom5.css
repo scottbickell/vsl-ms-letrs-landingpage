@@ -48,6 +48,11 @@ p.less-bottom-margin {
     margin-bottom: 0;
 }
 
+.mt-40 {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -56,11 +61,12 @@ p.less-bottom-margin {
     margin-bottom: 40px;
 }
 
-.headline h1 {
-    margin: .25em 0 0 0;
+h1.headline {
+    color: #c62b29;
+    margin: .75em 0 .5em 0;
 }
 
-.headline h1 sup {
+h1.headline sup {
     font-size: 18px;
     vertical-align: super;
     font-weight: normal;
@@ -125,11 +131,6 @@ a[x-apple-data-detectors] {
     border-radius: 8px;
 }
 
-.headline h1 {
-    padding: .5em 0;
-    color: #c62b29;
-}
-
 .buttons {
     font-size: 14px;
     font-family: Helvetica, Arial, sans-serif;
@@ -185,6 +186,12 @@ p.sales-rep-info {
 
 #footer {
     background: #4a4f55;
+}
+
+@media(min-width: 1200px) {
+    .img-responsive {
+        display: inline;
+    }
 }
 
 @media(max-width:767px) {
