@@ -73,7 +73,9 @@ h1.headline sup {
     margin-left: 5px;
 }
 
-
+p.lead {
+    line-height: 1.6;
+}
 
 a[x-apple-data-detectors] {
     color: inherit !important;
