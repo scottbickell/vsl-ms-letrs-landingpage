@@ -153,24 +153,20 @@ a.buttons:hover {
 }
 
 
-.quote {
+.quote-container {
     background: #082e60;
-    padding: 30px;
+    padding: 30px 50px;
 }
 
-.quote p {
+.quote-container p {
     color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 1.5;
+    font-weight: 300;
 }
 
-.quote p:last-child {
-    margin-bottom: 0;
-}
-
-.quote .no-italic {
-    font-style: normal;
+.quote-credit {
+    margin-bottom: 2em;
 }
 
 .sales-rep p {
@@ -188,12 +184,6 @@ p.sales-rep-info {
 
 #footer {
     background: #4a4f55;
-}
-
-@media(min-width: 1200px) {
-    .img-responsive {
-        display: inline;
-    }
 }
 
 @media(max-width:767px) {
